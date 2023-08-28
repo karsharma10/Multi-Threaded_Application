@@ -15,7 +15,7 @@ Central to the efficiency of this solution is the utilization of a thread-safe s
 
 To ensure synchronization, eliminate deadlock, and avoid busy waits, the application harnesses the power of mutexes and semaphores. This orchestration of resources aligns with best practices, fulfilling synchronization, deadlock prevention, and avoidance of resource starvation.
 
-
+In essence, this multi-threaded DNS resolver showcases my proficiency in C programming, concurrent computing, synchronization mechanisms, and system-level problem-solving. Feel free to explore the codebase and its implementation details to gain a deeper understanding of this project.
 
 
 

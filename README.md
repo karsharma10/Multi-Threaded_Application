@@ -10,6 +10,8 @@ Each input file is meticulously processed using a single requester thread per fi
 As the completion of file processing is achieved, requester threads gracefully conclude their tasks. Upon the successful resolution of all hostnames, resolver threads terminate, bringing the program to a close.
 
 
+Central to the efficiency of this solution is the utilization of a thread-safe shared stack, addressing the bounded buffer problem. The shared stack leverages a contiguous, linear memory array (LIFO) to enhance performance.
+
 
 
 

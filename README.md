@@ -7,6 +7,10 @@ The architecture of this application centers around two distinct types of worker
 
 Each input file is meticulously processed using a single requester thread per file. These threads read files line by line, extract hostnames from the shared array, perform IP address lookups, and subsequently write the outcomes to the resolver logfile.
 
+As the completion of file processing is achieved, requester threads gracefully conclude their tasks. Upon the successful resolution of all hostnames, resolver threads terminate, bringing the program to a close.
+
+
+
 
 
 

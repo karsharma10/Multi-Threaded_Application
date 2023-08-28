@@ -13,6 +13,8 @@ As the completion of file processing is achieved, requester threads gracefully c
 Central to the efficiency of this solution is the utilization of a thread-safe shared stack, addressing the bounded buffer problem. The shared stack leverages a contiguous, linear memory array (LIFO) to enhance performance.
 
 
+To ensure synchronization, eliminate deadlock, and avoid busy waits, the application harnesses the power of mutexes and semaphores. This orchestration of resources aligns with best practices, fulfilling synchronization, deadlock prevention, and avoidance of resource starvation.
+
 
 
 

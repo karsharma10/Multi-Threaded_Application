@@ -18,7 +18,7 @@ To ensure synchronization, eliminate deadlock, and avoid busy waits, the applica
 In essence, this multi-threaded DNS resolver showcases my proficiency in C programming, concurrent computing, synchronization mechanisms, and system-level problem-solving. Feel free to explore the codebase and its implementation details to gain a deeper understanding of this project.
 
 
-
+Tested on Linux environment 
 
 
 
